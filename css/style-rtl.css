@@ -1,0 +1,277 @@
+/* fonts */
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-FD.eot');
+    src: url('../../fonts/vazir/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-FD.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-Bold-FD.eot');
+    src: url('../../fonts/vazir/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-Bold-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-Bold-FD.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-Bold-FD.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-Black-FD.eot');
+    src: url('../../fonts/vazir/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-Black-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-Black-FD.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-Black-FD.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-Medium-FD.eot');
+    src: url('../../fonts/vazir/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-Medium-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-Medium-FD.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-Medium-FD.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-Light-FD.eot');
+    src: url('../../fonts/vazir/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-Light-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-Light-FD.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-Light-FD.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../../fonts/vazir/Vazir-Thin-FD.eot');
+    src: url('../../fonts/vazir/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/vazir/Vazir-Thin-FD.woff2') format('woff2'),
+    url('../../fonts/vazir/Vazir-Thin.woff') format('woff'),
+    url('../../fonts/vazir/Vazir-Thin-FD.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, h6,input, textarea, .navbar, .sidebar {
+    font-family: 'Vazir', sans-serif;
+}
+.circle-clipper{
+    direction: ltr;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked,
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+    left: auto;
+    right: -9999px;
+}
+[type="radio"] + label:before, [type="radio"] + label:after,
+[type="checkbox"].filled-in + label:before, [type="checkbox"].filled-in + label:after{
+    left: auto;
+    right: 0;
+}
+[type="checkbox"].filled-in:checked + label:before{
+    right: 11px;
+}
+[type="radio"] + label,
+[type="radio"] + label,
+[type="checkbox"] + label{
+    padding-left: unset;
+    padding-right: 26px;
+    /*height: 100%;*/
+}
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+.table img{
+    margin: 0 auto;
+}
+form p{
+    text-align: right;
+}
+@media (max-width: 767px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-right: 35px;
+        margin-left: auto;
+    }
+}
+.ls-closed .bars:after, .ls-closed .bars:before{
+    right: 20px;
+    left: auto;
+}
+.ls-closed .bars:after{
+    content: '\E5C8';
+}
+.ls-closed .sidebar{
+    margin-right: -300px;
+    margin-left: auto;
+}
+.overlay-open .sidebar{
+    margin-right: 0;
+    margin-left: auto;
+}
+.ls-closed section.content{
+    margin-right: 15px;
+    margin-left: auto;
+}
+.btn:not(.btn-link):not(.btn-circle) i{
+    font-size: 12px;
+}
+
+.slimScrollBar {
+    right: auto !important;
+    left: 1px;
+}
+
+.dropdown-menu > li > a i.material-icons {
+    float: right;
+    margin-left: 7px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+/* datatable custom styles */
+.dataTables_filter{
+    text-align: left;
+}
+
+/* dropzone custom styles*/
+.dz-hidden-input{
+    right: 0;
+}
+
+/* custom styles */
+.login-page,
+.login-page{
+    background-color: #4CAF50;
+}
+.login-page .login-box a{
+    color: #4CAF50;
+}
+.input-group .input-group-addon{
+    padding-left: 12px;
+    padding-right: 0;
+}
+.sidebar{
+    left: auto;
+    right: 0;
+}
+
+.sidebar .menu .list .ml-menu li.active a.toggled:not(.menu-toggle){
+    color: #747474;
+}
+.sidebar .menu .list .ml-menu li.active a.toggled:not(.menu-toggle):before{
+    content: '\E314';
+}
+section.content{
+    margin: 100px 315px 0 15px;
+}
+.right-sidebar{
+    right: auto;
+    left: -300px;
+}
+.right-sidebar.open{
+    right: auto;
+    left: 0;
+}
+.sidebar .menu .list{
+    padding-right: 0;
+    padding-left: 0;
+}
+.sidebar .menu .list .menu-toggle:after, .sidebar .menu .list .menu-toggle:before {
+    position: absolute;
+    top: calc(50% - 14px);
+    right: auto;
+    left: 17px;
+    font-size: 19px;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.sidebar .menu .list .menu-toggle:before {
+    content: '+';
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.sidebar .menu .list .menu-toggle.toggled:before {
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.sidebar .menu .list .menu-toggle:after {
+    content: '\2013';
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.sidebar .menu .list .menu-toggle.toggled:after {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.sidebar .menu .list a span {
+    margin-right: 12px;
+    margin-left: 0;
+}
+.sidebar .user-info .info-container .user-helper-dropdown{
+    right: auto;
+    left: -3px;
+}
+@media(min-width: 768px) {
+    .navbar-left{
+        margin-left: -20px;
+        margin-right: auto;
+    }
+    .navbar-left .dropdown-menu{
+        right: auto;
+        left: 0;
+    }
+}
+.card .header .header-dropdown{
+    right: auto;
+    left: 15px;
+}
+
+.info-box.hover-expand-effect:after{
+    right: 80px;
+    left: auto;
+}
+.panel-switch-btn{
+    right: auto;
+    left: 20px;
+}
+.table-bordered thead tr th{
+    padding-right: auto;
+    padding-left: 10px;
+}
+.checkbox-group label{
+    height: 100%;
+}
